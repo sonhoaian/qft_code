@@ -3,7 +3,7 @@ import scala.io.Source
 import scala.collection.mutable.ArrayBuffer
 
 object ScatteringCrossSection {
-  val datasetDirectory = "/path/to/CTEQ61/dataset/directory"
+  val datasetDirectory = "CTEQ66"
 
   def readPDFData(flavor: Int): (Array[Double], Array[Double]) = {
     val filename = s"$datasetDirectory/cteq61_$flavor.dat"
